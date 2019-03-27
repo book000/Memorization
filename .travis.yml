@@ -1,4 +1,6 @@
 language: csharp
+notifications:
+  webhooks: https://tomacheese.com/tomachi/travisci_notice_book000.php
 script:
   - xbuild /p:Configuration=Debug Memorization.sln
 before_install:
