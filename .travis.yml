@@ -1,0 +1,9 @@
+language: csharp
+script:
+  - xbuild /p:Configuration=Debug Memorization.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Memorization.sln
+after_script:
+  - nunit-console Memorization/bin/Debug/VoiceTextWebAPI.Client.dll
