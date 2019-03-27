@@ -87,7 +87,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"C:\Program Files (x86)\Microsoft\ILMerge\ILMerge.exe" /wildcards /out:$(TargetDir)$(TargetName)_DLLMerged$(TargetExt) $(TargetPath) $(TargetDir)*.dll /targetplatform:v4,"C:\Windows\Microsoft.NET\Framework\v4.0.30319"</PostBuildEvent>
+    <PostBuildEvent>if $(ConfigurationName) == Debug (
+  "C:\Program Files (x86)\Microsoft\ILMerge\ILMerge.exe" /wildcards /out:$(TargetDir)$(TargetName)_DLLMerged$(TargetExt) $(TargetPath) $(TargetDir)*.dll /targetplatform:v4,"C:\Windows\Microsoft.NET\Framework\v4.0.30319"
+)</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>
