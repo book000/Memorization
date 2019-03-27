@@ -3,7 +3,7 @@ notifications:
   webhooks: https://tomacheese.com/tomachi/travisci_notice_book000.php
 mono: none
 solution: Memorization.sln
-dotnet: 2.0.0
+dotnet: 2.1.6
 install:
 - dotnet restore
 
