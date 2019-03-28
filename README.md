@@ -1,5 +1,13 @@
 # Memorization
 
+[![Build Status](https://travis-ci.org/book000/Memorization.svg?branch=master)](https://travis-ci.org/book000/Memorization)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bedbf4dfeb7c45e488f4c80d431730d7)](https://www.codacy.com/app/book000/Memorization?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=book000/Memorization&amp;utm_campaign=Badge_Grade)
+![License](https://img.shields.io/github/license/book000/Memorization.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/book000/Memorization/total.svg)
+[![GitHub release](https://img.shields.io/github/release/book000/Memorization.svg)](https://github.com/book000/Memorization/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/book000/Memorization.svg)](https://github.com/book000/Memorization/releases)
+[![Twitter Follow](https://img.shields.io/twitter/follow/book000.svg?style=social)](https://twitter.com/book000)
+
 [VoiceText Web API](https://cloud.voicetext.jp/webapi)を使って、打ち込まれた文章を読み上げるmp3ファイルを生成します。
 
 ## ダウンロード
