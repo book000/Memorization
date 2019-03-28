@@ -4,7 +4,7 @@
 
 ## ダウンロード
 
-[Releases](https://github.com/book000/YouTubeDLWrapper/releases)
+[Releases](https://github.com/book000/Memorization/releases)
 
 ## 使い方
 
@@ -60,7 +60,7 @@ Apikeyの設定は前述しておりますので、省略します。
 
 ## ライセンス
 
-当アプリケーションには[MIT License](https://github.com/book000/YouTubeDLWrapper/blob/master/LICENSE)を適用します。
+当アプリケーションには[MIT License](https://github.com/book000/Memorization/blob/master/LICENSE)を適用します。
 
 ## 免責事項
 
