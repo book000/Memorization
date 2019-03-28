@@ -1,12 +1,11 @@
 language: csharp
 notifications:
   webhooks: https://tomacheese.com/tomachi/travisci_notice_book000.php
-mono: none
-solution: Memorization.sln
-dotnet: 2.1.6
-install:
-- dotnet restore
-
 script:
- - dotnet build -c Release
- - dotnet test Memorization/Memorization.csproj
+  - xbuild /p:Configuration=Debug Memorization.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Memorization.sln
+after_script:
+  - nunit-console Memorization/bin/Debug/VoiceTextWebAPI.Client.dll
